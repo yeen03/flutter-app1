@@ -15,7 +15,8 @@ class MyApp extends  StatelessWidget{
         appBar: AppBar(
           title: Text("Hello Flutter"),
         ),
-         body: Text("สวัสดีค้าาาา"),
+         body: Center(child: Text("สวัสดีค้าา"),
+         ),
         ),
         theme: ThemeData(primarySwatch:Color.green),
     );
