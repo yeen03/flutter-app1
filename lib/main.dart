@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
         ),
         body: Text("สวัสดีค้าาาา"),
         ),
+        theme: ThemeData(primarySwatch:Color.green),
     );
   runApp(app);
 }
