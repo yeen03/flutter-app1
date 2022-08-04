@@ -8,9 +8,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "My App",
+      title: "worada",
       home: MyHomePage(),
-      theme: ThemeData(primarySwatch: Colors.pink),
+      theme: ThemeData(primarySwatch: Colors.green),
     );
   }
 }
@@ -24,7 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("บัญชีของฉัน",style: TextStyle(fontSize: 20,color: Colors.lime,fontWeight: FontWeight.bold),),
+          title: Text("บัญชีของยีนส์",style: TextStyle(fontSize: 20,color: Colors.black,fontWeight: FontWeight.bold),),
         ),
         body: Padding(
           padding: const EdgeInsets.all(10.0),
@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                 padding: const EdgeInsets.all(20.0),
                 decoration: BoxDecoration(
-                    color: Colors.yellow,
+                    color: Colors.pink,
                     borderRadius: BorderRadius.circular(10)),
                 height: 200,
                 child: Row(
